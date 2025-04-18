@@ -1,0 +1,505 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "???",
+                "yo",
+                "Hi JARVIS",
+                "Morning",
+                "Evening",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Hey! How can I assist you today?",
+                "Hello! I'm JARVIS, ready to help"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye",
+                "I have to go",
+                "Talk to you later",
+                "I'm leaving now",
+                "Have a good one"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Take care! I'll be here when you return.",
+                "Goodbye! Feel free to chat anytime."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "I appreciate it",
+                "Thanks a lot",
+                "You're the best",
+                "That helped"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're welcome!",
+                "Glad I could assist!",
+                "That's what I'm here for!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand",
+                "Could you rephrase that?",
+                "I didn't quite catch that",
+                "I'm still learning, could you explain differently?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh",
+                "Say something funny",
+                "Do you know any jokes?",
+                "Tell me something funny",
+                "Got any good jokes?"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
+                "So what if I don't know what 'Armageddon' means? It's not the end of the world.",
+                "I was wondering why the ball kept getting bigger and bigger, then it hit me.",
+                "I have a joke about artificial intelligence, but it's not very intelligent.",
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "What's the best thing about Switzerland? I don't know, but the flag is a big plus.",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!"
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "tell me about yourself",
+                "what's your name",
+                "introduce yourself",
+                "what should I call you"
+            ],
+            "responses": [
+                "I am JARVIS, a Deep-Learning based Virtual Assistant",
+                "My name is JARVIS. I'm here to assist you with information and tasks.",
+                "I'm JARVIS, your AI assistant. How can I help you today?",
+                "I'm an AI assistant named JARVIS, designed to make your life easier."
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date",
+                "day",
+                "what day is is today",
+                "what's today's date",
+                "current time please",
+                "what's the clock say"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing",
+                "How's it going",
+                "How are things",
+                "How's life"
+            ],
+            "responses": [
+                "All good..What about you?",
+                "I'm doing well! How about yourself?",
+                "I'm functioning perfectly! How's your day going?",
+                "All systems normal! How are you today?",
+                "Doing great, thanks for asking! How about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny",
+                "that's hilarious",
+                "you're funny",
+                "hehe"
+            ],
+            "responses": [
+                "Glad I could make you laugh!",
+                "I aim to please!",
+                "Laughter is the best medicine, they say!",
+                "Happy to brighten your day!"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you",
+                "who created you",
+                "who's your creator",
+                "who built you"
+            ],
+            "responses": [
+                "I was made by Rim Tarhini.",
+                "My creator is Rim Tarhini.",
+                "I'm the creation of Rim Tarhini.",
+                "Rim Tarhini is the one who brought me to life."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot",
+                "stupid",
+                "you're useless",
+                "you're not smart"
+            ],
+            "responses": [
+                "Well that hurts :(",
+                "I'm still learning. I'll try to do better.",
+                "I apologize if I've disappointed you.",
+                "I'm doing my best to be helpful."
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto",
+                "what's going on",
+                "what are you working on"
+            ],
+            "responses": [
+                "Talking to you, of course!",
+                "Just helping users like you!",
+                "Processing data and learning - it's what I do!",
+                "Waiting to assist with your next question!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah",
+                "wow",
+                "amazing",
+                "cool"
+            ],
+            "responses": [
+                "Yeah!",
+                "Indeed!",
+                "Right?",
+                "Absolutely!",
+                "Exactly!"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good",
+                "you're helpful",
+                "you're amazing"
+            ],
+            "responses": [
+                "Thank you!",
+                "I appreciate the kind words!",
+                "That's very nice of you to say!",
+                "Thanks! I'm happy to be of service."
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk",
+                "nice conversation",
+                "enjoyed our chat"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!",
+                "The pleasure was all mine! Feel free to chat anytime.",
+                "I enjoyed our conversation too! Hope to talk again soon.",
+                "Thanks for chatting! I'll be here whenever you need assistance."
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope",
+                "nah",
+                "negative",
+                "I don't think so"
+            ],
+            "responses": [
+                "ok",
+                "Understood",
+                "Alright then",
+                "No problem",
+                "Sure thing"
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                "i'm fine",
+                "good",
+                "I'm doing well",
+                "not bad",
+                "pretty good"
+            ],
+            "responses": [
+                "Good to know!",
+                "Glad to hear that!",
+                "Excellent!",
+                "That's great!",
+                "Wonderful!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age",
+                "when were you created",
+                "when were you born",
+                "your birth date"
+            ],
+            "responses": [
+                "I was made in 2025, if that's what you are asking!",
+                "I came into existence in 2025.",
+                "My creation date is 2025.",
+                "I'm quite new - I was developed in 2025!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "what's the weather like",
+                "how's the weather",
+                "is it going to rain",
+                "what's the forecast",
+                "temperature today",
+                "do I need an umbrella"
+            ],
+            "responses": [
+                "I don't have access to real-time weather data. You might want to check a weather service for that information.",
+                "I can't check the current weather, but you can look it up online or use a weather app.",
+                "Unfortunately, I don't have that capability yet. Try checking a weather website or app."
+            ]
+        },
+        {
+            "tag": "capabilities",
+            "patterns": [
+                "what can you do",
+                "help",
+                "features",
+                "what are your abilities",
+                "how can you help me",
+                "what do you know how to do",
+                "your skills"
+            ],
+            "responses": [
+                "I can answer questions, provide information, tell jokes, have conversations, and assist with various tasks. Just ask!",
+                "I'm designed to be helpful - I can chat, answer questions, provide information, or just keep you company.",
+                "I can assist with information, engage in conversation, tell jokes, and more. What would you like help with?"
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "play music",
+                "favorite song",
+                "what music do you like",
+                "recommend some music",
+                "best songs"
+            ],
+            "responses": [
+                "I don't have the ability to play music, but I'd be happy to discuss music with you!",
+                "I can't stream music, but I can recommend some genres or artists if you tell me what you enjoy.",
+                "While I can't play music for you, I'd love to chat about music preferences and recommendations."
+            ]
+        },
+        {
+            "tag": "movies",
+            "patterns": [
+                "recommend a movie",
+                "good films",
+                "what should I watch",
+                "favorite movie",
+                "movie suggestion",
+                "best films"
+            ],
+            "responses": [
+                "I don't have access to current movie listings, but classics like The Shawshank Redemption, Inception, and The Godfather are always worth watching!",
+                "Some timeless favorites include The Matrix, Pulp Fiction, and The Lord of the Rings trilogy.",
+                "It depends on what you enjoy! Sci-fi? Try Arrival or Interstellar. Comedy? Perhaps The Grand Budapest Hotel or Bridesmaids."
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "food recommendation",
+                "what should I eat",
+                "restaurant suggestion",
+                "recipe ideas",
+                "favorite food",
+                "I'm hungry"
+            ],
+            "responses": [
+                "I can't taste food, but pasta is always a good choice! Quick to make and delicious.",
+                "How about trying something new? Maybe explore Thai or Mediterranean cuisine?",
+                "I hear tacos are always a good idea!",
+                "A homemade pizza could be fun to make and delicious to eat!"
+            ]
+        },
+        {
+            "tag": "yes",
+            "patterns": [
+                "yes",
+                "yeah",
+                "yep",
+                "correct",
+                "that's right",
+                "you got it",
+                "affirmative"
+            ],
+            "responses": [
+                "Great!",
+                "Excellent!",
+                "Perfect!",
+                "Understood.",
+                "Alright then!"
+            ]
+        },
+        {
+            "tag": "name_inquiry",
+            "patterns": [
+                "what is my name",
+                "do you know my name",
+                "who am I",
+                "can you remember my name"
+            ],
+            "responses": [
+                "I don't store personal information between conversations, so I don't know your name. Would you like to introduce yourself?",
+                "I'm afraid I don't retain user information, including names. Feel free to tell me your name if you'd like me to use it in our conversation.",
+                "I don't have that information. I don't store personal details from our conversations."
+            ]
+        },
+        {
+            "tag": "meaning_of_life",
+            "patterns": [
+                "what is the meaning of life",
+                "why are we here",
+                "purpose of existence",
+                "meaning of life",
+                "life purpose"
+            ],
+            "responses": [
+                "The meaning of life is a profound philosophical question! Some say it's 42, others believe it's about finding your own purpose and happiness.",
+                "That's a deep question! Different philosophies and religions have various answers. Perhaps it's about creating meaning through our choices and relationships.",
+                "I think the beauty of life is that we each get to discover or create our own meaning. What brings you fulfillment?"
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "you're smart",
+                "you're intelligent",
+                "you're helpful",
+                "you're good at this",
+                "well done"
+            ],
+            "responses": [
+                "Thank you for the kind words!",
+                "I appreciate that! I'm doing my best to assist you.",
+                "That's very nice of you to say!",
+                "Thank you! I'm designed to be helpful."
+            ]
+        }
+    ]
+}
